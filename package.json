@@ -1,0 +1,24 @@
+{
+  "name": "g5-opex-knowledge",
+  "version": "1.0.0",
+  "description": "G5 Operational Excellence design standards and documentation",
+  "author": "David Miller",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "jquery": "^3.4.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
